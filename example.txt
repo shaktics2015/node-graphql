@@ -1,0 +1,31 @@
+mutation {
+  register(login: "john", password: "john")
+}
+
+mutation login{
+  login(login: "john", password: "john")
+}
+
+query getBeers($id1: Int!, $id2: Int!) {
+  beer1: beer(id: $id1) {
+    ...beerFields
+  }
+  beer2: beer(id: $id2) {
+    ...beerFields
+  }
+}
+
+fragment beerFields on Beer {
+  id
+  name
+  brand
+  price
+}
+
+{
+  "id1": 1,
+  "id2": 3
+}
+
+
+

@@ -1,0 +1,37 @@
+{
+  "name": "graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint-fix": "npm run lint -- --fix",
+    "start": "node index"
+  },
+  "keywords": [
+    "GraphQL",
+    "Apollo",
+    "Server",
+    "Express",
+    "Javascript"
+  ],
+  "author": "Shakti Singh <sk.shrinet@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.24.0",
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.1",
+    "express": "^4.17.1",
+    "express-cluster": "0.0.5",
+    "express-jwt": "^6.0.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "static-favicon": "^2.0.0-alpha"
+  }
+}

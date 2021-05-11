@@ -1,0 +1,6 @@
+[2021-05-11T13:25:41.984] [INFO] startup - [37m[44m[1mThe server started on port 3000[22m[49m[39m
+[2021-05-11T17:15:53.041] [INFO] startup - [37m[44m[1mThe server started on port 3000[22m[49m[39m
+[2021-05-11T17:28:10.137] [INFO] resolvers - { id: 4, login: 'john', iat: 1620734270, exp: 1620735710 }
+[2021-05-11T17:28:10.139] [INFO] resolvers - { id: 4, login: 'john', iat: 1620734270, exp: 1620735710 }
+[2021-05-11T17:33:50.047] [INFO] resolvers - { id: 4, login: 'john', iat: 1620734270, exp: 1620735710 }
+[2021-05-11T17:33:50.047] [INFO] resolvers - { id: 4, login: 'john', iat: 1620734270, exp: 1620735710 }
