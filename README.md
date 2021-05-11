@@ -1,1 +1,1 @@
-# Node Boilerplate using GraphQL
+# Node Boilerplate using GraphQL and PostgreSQL
